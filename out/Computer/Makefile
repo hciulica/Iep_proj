@@ -87,14 +87,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(CMAKE_COMMAND) -E cmake_progress_start /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Computer//CMakeFiles/progress.marks
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Computer/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Computer/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,81 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Computer/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Computer/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named IEP_PROJ
+# Convenience name for target.
+Computer/CMakeFiles/Computer.dir/rule:
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Computer/CMakeFiles/Computer.dir/rule
+.PHONY : Computer/CMakeFiles/Computer.dir/rule
 
-# Build rule for target.
-IEP_PROJ: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 IEP_PROJ
-.PHONY : IEP_PROJ
-
-# fast build rule for target.
-IEP_PROJ/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IEP_PROJ.dir/build.make CMakeFiles/IEP_PROJ.dir/build
-.PHONY : IEP_PROJ/fast
-
-#=============================================================================
-# Target rules for targets named Storage
-
-# Build rule for target.
-Storage: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Storage
-.PHONY : Storage
-
-# fast build rule for target.
-Storage/fast:
-	$(MAKE) $(MAKESILENT) -f Storage/CMakeFiles/Storage.dir/build.make Storage/CMakeFiles/Storage.dir/build
-.PHONY : Storage/fast
-
-#=============================================================================
-# Target rules for targets named Computer
-
-# Build rule for target.
-Computer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Computer
+# Convenience name for target.
+Computer: Computer/CMakeFiles/Computer.dir/rule
 .PHONY : Computer
 
 # fast build rule for target.
 Computer/fast:
-	$(MAKE) $(MAKESILENT) -f Computer/CMakeFiles/Computer.dir/build.make Computer/CMakeFiles/Computer.dir/build
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(MAKE) $(MAKESILENT) -f Computer/CMakeFiles/Computer.dir/build.make Computer/CMakeFiles/Computer.dir/build
 .PHONY : Computer/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/Computer.o: src/Computer.cpp.o
+.PHONY : src/Computer.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IEP_PROJ.dir/build.make CMakeFiles/IEP_PROJ.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/Computer.cpp.o:
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(MAKE) $(MAKESILENT) -f Computer/CMakeFiles/Computer.dir/build.make Computer/CMakeFiles/Computer.dir/src/Computer.cpp.o
+.PHONY : src/Computer.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/Computer.i: src/Computer.cpp.i
+.PHONY : src/Computer.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IEP_PROJ.dir/build.make CMakeFiles/IEP_PROJ.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/Computer.cpp.i:
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(MAKE) $(MAKESILENT) -f Computer/CMakeFiles/Computer.dir/build.make Computer/CMakeFiles/Computer.dir/src/Computer.cpp.i
+.PHONY : src/Computer.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/Computer.s: src/Computer.cpp.s
+.PHONY : src/Computer.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IEP_PROJ.dir/build.make CMakeFiles/IEP_PROJ.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/Computer.cpp.s:
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(MAKE) $(MAKESILENT) -f Computer/CMakeFiles/Computer.dir/build.make Computer/CMakeFiles/Computer.dir/src/Computer.cpp.s
+.PHONY : src/Computer.cpp.s
 
 # Help Target
 help:
@@ -188,11 +163,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Computer"
-	@echo "... IEP_PROJ"
-	@echo "... Storage"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/Computer.o"
+	@echo "... src/Computer.i"
+	@echo "... src/Computer.s"
 .PHONY : help
 
 
@@ -204,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -63,42 +63,130 @@ CMAKE_BINARY_DIR = /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/main.dir/all
+all: CMakeFiles/IEP_PROJ.dir/all
+all: Storage/all
+all: Computer/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: Storage/preinstall
+preinstall: Computer/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/IEP_PROJ.dir/clean
+clean: Storage/clean
+clean: Computer/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/main.dir
+# Directory level rules for directory Computer
+
+# Recursive "all" directory target.
+Computer/all: Computer/CMakeFiles/Computer.dir/all
+.PHONY : Computer/all
+
+# Recursive "preinstall" directory target.
+Computer/preinstall:
+.PHONY : Computer/preinstall
+
+# Recursive "clean" directory target.
+Computer/clean: Computer/CMakeFiles/Computer.dir/clean
+.PHONY : Computer/clean
+
+#=============================================================================
+# Directory level rules for directory Storage
+
+# Recursive "all" directory target.
+Storage/all: Storage/CMakeFiles/Storage.dir/all
+.PHONY : Storage/all
+
+# Recursive "preinstall" directory target.
+Storage/preinstall:
+.PHONY : Storage/preinstall
+
+# Recursive "clean" directory target.
+Storage/clean: Storage/CMakeFiles/Storage.dir/clean
+.PHONY : Storage/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/IEP_PROJ.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles --progress-num=1,2 "Built target main"
-.PHONY : CMakeFiles/main.dir/all
+CMakeFiles/IEP_PROJ.dir/all: Storage/CMakeFiles/Storage.dir/all
+CMakeFiles/IEP_PROJ.dir/all: Computer/CMakeFiles/Computer.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IEP_PROJ.dir/build.make CMakeFiles/IEP_PROJ.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IEP_PROJ.dir/build.make CMakeFiles/IEP_PROJ.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles --progress-num=3,4 "Built target IEP_PROJ"
+.PHONY : CMakeFiles/IEP_PROJ.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
+CMakeFiles/IEP_PROJ.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/IEP_PROJ.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles 0
-.PHONY : CMakeFiles/main.dir/rule
+.PHONY : CMakeFiles/IEP_PROJ.dir/rule
 
 # Convenience name for target.
-main: CMakeFiles/main.dir/rule
-.PHONY : main
+IEP_PROJ: CMakeFiles/IEP_PROJ.dir/rule
+.PHONY : IEP_PROJ
 
 # clean rule for target.
-CMakeFiles/main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
-.PHONY : CMakeFiles/main.dir/clean
+CMakeFiles/IEP_PROJ.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IEP_PROJ.dir/build.make CMakeFiles/IEP_PROJ.dir/clean
+.PHONY : CMakeFiles/IEP_PROJ.dir/clean
+
+#=============================================================================
+# Target rules for target Storage/CMakeFiles/Storage.dir
+
+# All Build rule for target.
+Storage/CMakeFiles/Storage.dir/all:
+	$(MAKE) $(MAKESILENT) -f Storage/CMakeFiles/Storage.dir/build.make Storage/CMakeFiles/Storage.dir/depend
+	$(MAKE) $(MAKESILENT) -f Storage/CMakeFiles/Storage.dir/build.make Storage/CMakeFiles/Storage.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles --progress-num=5,6 "Built target Storage"
+.PHONY : Storage/CMakeFiles/Storage.dir/all
+
+# Build rule for subdir invocation for target.
+Storage/CMakeFiles/Storage.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Storage/CMakeFiles/Storage.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles 0
+.PHONY : Storage/CMakeFiles/Storage.dir/rule
+
+# Convenience name for target.
+Storage: Storage/CMakeFiles/Storage.dir/rule
+.PHONY : Storage
+
+# clean rule for target.
+Storage/CMakeFiles/Storage.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Storage/CMakeFiles/Storage.dir/build.make Storage/CMakeFiles/Storage.dir/clean
+.PHONY : Storage/CMakeFiles/Storage.dir/clean
+
+#=============================================================================
+# Target rules for target Computer/CMakeFiles/Computer.dir
+
+# All Build rule for target.
+Computer/CMakeFiles/Computer.dir/all:
+	$(MAKE) $(MAKESILENT) -f Computer/CMakeFiles/Computer.dir/build.make Computer/CMakeFiles/Computer.dir/depend
+	$(MAKE) $(MAKESILENT) -f Computer/CMakeFiles/Computer.dir/build.make Computer/CMakeFiles/Computer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles --progress-num=1,2 "Built target Computer"
+.PHONY : Computer/CMakeFiles/Computer.dir/all
+
+# Build rule for subdir invocation for target.
+Computer/CMakeFiles/Computer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Computer/CMakeFiles/Computer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles 0
+.PHONY : Computer/CMakeFiles/Computer.dir/rule
+
+# Convenience name for target.
+Computer: Computer/CMakeFiles/Computer.dir/rule
+.PHONY : Computer
+
+# clean rule for target.
+Computer/CMakeFiles/Computer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Computer/CMakeFiles/Computer.dir/build.make Computer/CMakeFiles/Computer.dir/clean
+.PHONY : Computer/CMakeFiles/Computer.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
