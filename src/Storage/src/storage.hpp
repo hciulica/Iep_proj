@@ -15,8 +15,9 @@ public:
     Storage( const Storage& stor_obj );
     //Copy assignment operator
     Storage& operator = ( const Storage& stor_obj );
-
-    std::string get_producer_name();
+    //Getter for producer_name
+    std::string get_producer_name() const;
+    std::string get_the_type_name() const;
 };
 
 #endif
