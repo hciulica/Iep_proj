@@ -7,3 +7,6 @@
 /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Computer/CMakeFiles/rebuild_cache.dir
 /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Computer/CMakeFiles/edit_cache.dir
 /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Computer/CMakeFiles/Computer.dir
+/Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/GraphicC/CMakeFiles/rebuild_cache.dir
+/Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/GraphicC/CMakeFiles/edit_cache.dir
+/Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/GraphicC/CMakeFiles/GraphicC.dir
