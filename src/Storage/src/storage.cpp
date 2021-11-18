@@ -16,8 +16,8 @@
     //Copy assignment operator
     Storage& Storage::operator=( const Storage& stor_obj )
     {
-        if( this == &stor_obj )
-            return *this;
+        if( this == &stor_obj ) //In case of it's same object like Obj a = a;
+            return *this; //This is current object
         the_producer_name = stor_obj.get_producer_name();
         the_type_name = stor_obj.get_the_type_name();
         return *this;

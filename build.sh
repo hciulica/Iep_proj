@@ -1,5 +1,5 @@
 cd out
 cmake ../src
 make
-./main
+./IEP_PROJ
 cd ..

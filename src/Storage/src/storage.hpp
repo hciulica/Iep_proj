@@ -3,7 +3,7 @@
 
 class Storage
 {
- public:
+ private:
     std::string the_producer_name;
     std::string the_type_name;
 public:
