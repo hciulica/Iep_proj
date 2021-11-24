@@ -168,6 +168,19 @@ GraphicC/fast:
 	$(MAKE) $(MAKESILENT) -f GraphicC/CMakeFiles/GraphicC.dir/build.make GraphicC/CMakeFiles/GraphicC.dir/build
 .PHONY : GraphicC/fast
 
+#=============================================================================
+# Target rules for targets named Case
+
+# Build rule for target.
+Case: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Case
+.PHONY : Case
+
+# fast build rule for target.
+Case/fast:
+	$(MAKE) $(MAKESILENT) -f Case/CMakeFiles/Case.dir/build.make Case/CMakeFiles/Case.dir/build
+.PHONY : Case/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -200,6 +213,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Case"
 	@echo "... Computer"
 	@echo "... GraphicC"
 	@echo "... IEP_PROJ"

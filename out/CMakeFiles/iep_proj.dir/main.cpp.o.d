@@ -231,4 +231,6 @@ CMakeFiles/IEP_PROJ.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__bit_reference \
   /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Storage/src/storage.hpp \
   /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Computer/src/computer.hpp \
-  /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/GraphicC/src/graphicc.hpp
+  /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/GraphicC/src/graphicc.hpp \
+  /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Case/src/case.hpp \
+  /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Case/src/casergb.hpp

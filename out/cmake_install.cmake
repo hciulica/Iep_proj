@@ -42,6 +42,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Storage/cmake_install.cmake")
   include("/Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Computer/cmake_install.cmake")
   include("/Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/GraphicC/cmake_install.cmake")
+  include("/Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Case/cmake_install.cmake")
 
 endif()
 

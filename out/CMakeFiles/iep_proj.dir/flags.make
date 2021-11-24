@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Storage/src -I/Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/GraphicC/src -I/Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Computer/src
+CXX_INCLUDES = -I/Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Storage/src -I/Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/GraphicC/src -I/Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Computer/src -I/Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Case/src
 
 CXX_FLAGSx86_64 =  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk -std=c++14
 

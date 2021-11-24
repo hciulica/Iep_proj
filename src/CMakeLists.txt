@@ -9,9 +9,11 @@ set( CMAKE_CXX_EXTENSIONS OFF )
 add_subdirectory( Storage )
 add_subdirectory( Computer )
 add_subdirectory( GraphicC )
+add_subdirectory( Case )
+
 #add_subdirectory( Main )
 
 add_executable( IEP_PROJ main.cpp )
 
 #
-target_link_libraries( IEP_PROJ PRIVATE Storage Computer GraphicC )
+target_link_libraries( IEP_PROJ PRIVATE Storage Computer GraphicC Case )

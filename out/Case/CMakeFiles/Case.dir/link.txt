@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libCase.a CMakeFiles/Case.dir/src/Case.cpp.o CMakeFiles/Case.dir/src/casergb.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libCase.a

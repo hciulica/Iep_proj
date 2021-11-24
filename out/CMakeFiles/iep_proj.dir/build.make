@@ -95,6 +95,7 @@ IEP_PROJ: CMakeFiles/IEP_PROJ.dir/build.make
 IEP_PROJ: Storage/libStorage.a
 IEP_PROJ: Computer/libComputer.a
 IEP_PROJ: GraphicC/libGraphicC.a
+IEP_PROJ: Case/libCase.a
 IEP_PROJ: CMakeFiles/IEP_PROJ.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable IEP_PROJ"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/IEP_PROJ.dir/link.txt --verbose=$(VERBOSE)

@@ -32,6 +32,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.21.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.21.4/CMakeSystem.cmake"
   "/Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/CMakeLists.txt"
+  "/Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Case/CMakeLists.txt"
   "/Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Computer/CMakeLists.txt"
   "/Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/GraphicC/CMakeLists.txt"
   "/Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Storage/CMakeLists.txt"
@@ -49,6 +50,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Storage/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Computer/CMakeFiles/CMakeDirectoryInformation.cmake"
   "GraphicC/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Case/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -57,4 +59,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "Storage/CMakeFiles/Storage.dir/DependInfo.cmake"
   "Computer/CMakeFiles/Computer.dir/DependInfo.cmake"
   "GraphicC/CMakeFiles/GraphicC.dir/DependInfo.cmake"
+  "Case/CMakeFiles/Case.dir/DependInfo.cmake"
   )
