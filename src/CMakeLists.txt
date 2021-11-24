@@ -14,4 +14,4 @@ add_subdirectory( GraphicC )
 add_executable( IEP_PROJ main.cpp )
 
 #
-target_link_libraries( IEP_PROJ PRIVATE Storage Computer GraphicC)
+target_link_libraries( IEP_PROJ PRIVATE Storage Computer GraphicC )

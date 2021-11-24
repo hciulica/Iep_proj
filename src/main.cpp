@@ -48,7 +48,8 @@ int main(void)
     //storage1 = storage2 = storage3;
     (storage1 = storage2) = storage3; 
     //storage1 = (storage2 = storage3);
-
+    std::cout << std::endl;
+    
     std::cout << "Producer name storage1: " << storage1.get_producer_name() << std::endl;
     std::cout << "Type name storage1: " << storage1.get_the_type_name() << std::endl;
      
@@ -69,8 +70,6 @@ int main(void)
 
     std::cout << "Type name graphic3: " << graphic3.get_producer_name_graphic() << std::endl;
     std::cout << "Graphic memory graphic3: " << graphic3.get_graphic_memory() << std::endl;
-    //tcp();
-    //Computer::computer1 = new Computer();
-    
+    std::cout << std::endl;
     return 0;
 }

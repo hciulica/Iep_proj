@@ -73,15 +73,15 @@ CMakeFiles/IEP_PROJ.dir/main.cpp.o: CMakeFiles/IEP_PROJ.dir/flags.make
 CMakeFiles/IEP_PROJ.dir/main.cpp.o: /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/main.cpp
 CMakeFiles/IEP_PROJ.dir/main.cpp.o: CMakeFiles/IEP_PROJ.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/IEP_PROJ.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IEP_PROJ.dir/main.cpp.o -MF CMakeFiles/IEP_PROJ.dir/main.cpp.o.d -o CMakeFiles/IEP_PROJ.dir/main.cpp.o -c /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/main.cpp
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IEP_PROJ.dir/main.cpp.o -MF CMakeFiles/IEP_PROJ.dir/main.cpp.o.d -o CMakeFiles/IEP_PROJ.dir/main.cpp.o -c /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/main.cpp
 
 CMakeFiles/IEP_PROJ.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IEP_PROJ.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/main.cpp > CMakeFiles/IEP_PROJ.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/main.cpp > CMakeFiles/IEP_PROJ.dir/main.cpp.i
 
 CMakeFiles/IEP_PROJ.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IEP_PROJ.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/main.cpp -o CMakeFiles/IEP_PROJ.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/main.cpp -o CMakeFiles/IEP_PROJ.dir/main.cpp.s
 
 # Object files for target IEP_PROJ
 IEP_PROJ_OBJECTS = \
