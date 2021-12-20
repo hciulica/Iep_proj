@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/CaseRgb/src/casergb.cpp" "CaseRgb/CMakeFiles/CaseRgb.dir/src/casergb.cpp.o" "gcc" "CaseRgb/CMakeFiles/CaseRgb.dir/src/casergb.cpp.o.d"
+  "/Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src/MotherBoard/src/MotherBoard.cpp" "MotherBoard/CMakeFiles/MotherBoard.dir/src/MotherBoard.cpp.o" "gcc" "MotherBoard/CMakeFiles/MotherBoard.dir/src/MotherBoard.cpp.o.d"
   )
 
 # Targets to which this target links.

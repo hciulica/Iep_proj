@@ -57,10 +57,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src
+CMAKE_SOURCE_DIR = /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out
+CMAKE_BINARY_DIR = /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(CMAKE_COMMAND) -E cmake_progress_start /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CaseRgb//CMakeFiles/progress.marks
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CaseRgb/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles 0
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out && $(CMAKE_COMMAND) -E cmake_progress_start /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/CMakeFiles /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/MotherBoard//CMakeFiles/progress.marks
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MotherBoard/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CaseRgb/clean
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MotherBoard/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,56 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CaseRgb/preinstall
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MotherBoard/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CaseRgb/preinstall
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MotherBoard/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-CaseRgb/CMakeFiles/CaseRgb.dir/rule:
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CaseRgb/CMakeFiles/CaseRgb.dir/rule
-.PHONY : CaseRgb/CMakeFiles/CaseRgb.dir/rule
+MotherBoard/CMakeFiles/MotherBoard.dir/rule:
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MotherBoard/CMakeFiles/MotherBoard.dir/rule
+.PHONY : MotherBoard/CMakeFiles/MotherBoard.dir/rule
 
 # Convenience name for target.
-CaseRgb: CaseRgb/CMakeFiles/CaseRgb.dir/rule
-.PHONY : CaseRgb
+MotherBoard: MotherBoard/CMakeFiles/MotherBoard.dir/rule
+.PHONY : MotherBoard
 
 # fast build rule for target.
-CaseRgb/fast:
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(MAKE) $(MAKESILENT) -f CaseRgb/CMakeFiles/CaseRgb.dir/build.make CaseRgb/CMakeFiles/CaseRgb.dir/build
-.PHONY : CaseRgb/fast
+MotherBoard/fast:
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out && $(MAKE) $(MAKESILENT) -f MotherBoard/CMakeFiles/MotherBoard.dir/build.make MotherBoard/CMakeFiles/MotherBoard.dir/build
+.PHONY : MotherBoard/fast
 
-src/casergb.o: src/casergb.cpp.o
-.PHONY : src/casergb.o
+src/MotherBoard.o: src/MotherBoard.cpp.o
+.PHONY : src/MotherBoard.o
 
 # target to build an object file
-src/casergb.cpp.o:
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(MAKE) $(MAKESILENT) -f CaseRgb/CMakeFiles/CaseRgb.dir/build.make CaseRgb/CMakeFiles/CaseRgb.dir/src/casergb.cpp.o
-.PHONY : src/casergb.cpp.o
+src/MotherBoard.cpp.o:
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out && $(MAKE) $(MAKESILENT) -f MotherBoard/CMakeFiles/MotherBoard.dir/build.make MotherBoard/CMakeFiles/MotherBoard.dir/src/MotherBoard.cpp.o
+.PHONY : src/MotherBoard.cpp.o
 
-src/casergb.i: src/casergb.cpp.i
-.PHONY : src/casergb.i
+src/MotherBoard.i: src/MotherBoard.cpp.i
+.PHONY : src/MotherBoard.i
 
 # target to preprocess a source file
-src/casergb.cpp.i:
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(MAKE) $(MAKESILENT) -f CaseRgb/CMakeFiles/CaseRgb.dir/build.make CaseRgb/CMakeFiles/CaseRgb.dir/src/casergb.cpp.i
-.PHONY : src/casergb.cpp.i
+src/MotherBoard.cpp.i:
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out && $(MAKE) $(MAKESILENT) -f MotherBoard/CMakeFiles/MotherBoard.dir/build.make MotherBoard/CMakeFiles/MotherBoard.dir/src/MotherBoard.cpp.i
+.PHONY : src/MotherBoard.cpp.i
 
-src/casergb.s: src/casergb.cpp.s
-.PHONY : src/casergb.s
+src/MotherBoard.s: src/MotherBoard.cpp.s
+.PHONY : src/MotherBoard.s
 
 # target to generate assembly for a file
-src/casergb.cpp.s:
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(MAKE) $(MAKESILENT) -f CaseRgb/CMakeFiles/CaseRgb.dir/build.make CaseRgb/CMakeFiles/CaseRgb.dir/src/casergb.cpp.s
-.PHONY : src/casergb.cpp.s
+src/MotherBoard.cpp.s:
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out && $(MAKE) $(MAKESILENT) -f MotherBoard/CMakeFiles/MotherBoard.dir/build.make MotherBoard/CMakeFiles/MotherBoard.dir/src/MotherBoard.cpp.s
+.PHONY : src/MotherBoard.cpp.s
 
 # Help Target
 help:
@@ -162,10 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... CaseRgb"
-	@echo "... src/casergb.o"
-	@echo "... src/casergb.i"
-	@echo "... src/casergb.s"
+	@echo "... MotherBoard"
+	@echo "... src/MotherBoard.o"
+	@echo "... src/MotherBoard.i"
+	@echo "... src/MotherBoard.s"
 .PHONY : help
 
 
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

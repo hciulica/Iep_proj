@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libCaseRgb.a CMakeFiles/CaseRgb.dir/src/casergb.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libCaseRgb.a

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src
+# Install script for directory: /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,15 +34,16 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/Library/Developer/CommandLineTools/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Storage/cmake_install.cmake")
-  include("/Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Computer/cmake_install.cmake")
-  include("/Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/GraphicC/cmake_install.cmake")
-  include("/Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Case/cmake_install.cmake")
+  include("/Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/Storage/cmake_install.cmake")
+  include("/Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/Computer/cmake_install.cmake")
+  include("/Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/GraphicC/cmake_install.cmake")
+  include("/Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/Case/cmake_install.cmake")
+  include("/Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/MotherBoard/cmake_install.cmake")
 
 endif()
 
@@ -54,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

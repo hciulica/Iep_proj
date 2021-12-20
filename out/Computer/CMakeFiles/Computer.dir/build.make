@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src
+CMAKE_SOURCE_DIR = /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out
+CMAKE_BINARY_DIR = /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out
 
 # Include any dependencies generated for this target.
 include Computer/CMakeFiles/Computer.dir/depend.make
@@ -70,18 +70,18 @@ include Computer/CMakeFiles/Computer.dir/progress.make
 include Computer/CMakeFiles/Computer.dir/flags.make
 
 Computer/CMakeFiles/Computer.dir/src/Computer.cpp.o: Computer/CMakeFiles/Computer.dir/flags.make
-Computer/CMakeFiles/Computer.dir/src/Computer.cpp.o: /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Computer/src/Computer.cpp
+Computer/CMakeFiles/Computer.dir/src/Computer.cpp.o: /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src/Computer/src/Computer.cpp
 Computer/CMakeFiles/Computer.dir/src/Computer.cpp.o: Computer/CMakeFiles/Computer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Computer/CMakeFiles/Computer.dir/src/Computer.cpp.o"
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Computer && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Computer/CMakeFiles/Computer.dir/src/Computer.cpp.o -MF CMakeFiles/Computer.dir/src/Computer.cpp.o.d -o CMakeFiles/Computer.dir/src/Computer.cpp.o -c /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Computer/src/Computer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Computer/CMakeFiles/Computer.dir/src/Computer.cpp.o"
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/Computer && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Computer/CMakeFiles/Computer.dir/src/Computer.cpp.o -MF CMakeFiles/Computer.dir/src/Computer.cpp.o.d -o CMakeFiles/Computer.dir/src/Computer.cpp.o -c /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src/Computer/src/Computer.cpp
 
 Computer/CMakeFiles/Computer.dir/src/Computer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Computer.dir/src/Computer.cpp.i"
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Computer && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Computer/src/Computer.cpp > CMakeFiles/Computer.dir/src/Computer.cpp.i
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/Computer && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src/Computer/src/Computer.cpp > CMakeFiles/Computer.dir/src/Computer.cpp.i
 
 Computer/CMakeFiles/Computer.dir/src/Computer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Computer.dir/src/Computer.cpp.s"
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Computer && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Computer/src/Computer.cpp -o CMakeFiles/Computer.dir/src/Computer.cpp.s
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/Computer && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src/Computer/src/Computer.cpp -o CMakeFiles/Computer.dir/src/Computer.cpp.s
 
 # Object files for target Computer
 Computer_OBJECTS = \
@@ -93,19 +93,19 @@ Computer_EXTERNAL_OBJECTS =
 Computer/libComputer.a: Computer/CMakeFiles/Computer.dir/src/Computer.cpp.o
 Computer/libComputer.a: Computer/CMakeFiles/Computer.dir/build.make
 Computer/libComputer.a: Computer/CMakeFiles/Computer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libComputer.a"
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Computer && $(CMAKE_COMMAND) -P CMakeFiles/Computer.dir/cmake_clean_target.cmake
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Computer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Computer.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libComputer.a"
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/Computer && $(CMAKE_COMMAND) -P CMakeFiles/Computer.dir/cmake_clean_target.cmake
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/Computer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Computer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Computer/CMakeFiles/Computer.dir/build: Computer/libComputer.a
 .PHONY : Computer/CMakeFiles/Computer.dir/build
 
 Computer/CMakeFiles/Computer.dir/clean:
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Computer && $(CMAKE_COMMAND) -P CMakeFiles/Computer.dir/cmake_clean.cmake
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/Computer && $(CMAKE_COMMAND) -P CMakeFiles/Computer.dir/cmake_clean.cmake
 .PHONY : Computer/CMakeFiles/Computer.dir/clean
 
 Computer/CMakeFiles/Computer.dir/depend:
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Computer /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Computer /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Computer/CMakeFiles/Computer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src/Computer /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/Computer /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/Computer/CMakeFiles/Computer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Computer/CMakeFiles/Computer.dir/depend
 

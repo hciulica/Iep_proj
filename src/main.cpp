@@ -4,6 +4,7 @@
 #include <graphicc.hpp>
 #include <case.hpp>
 #include <casergb.hpp>
+#include <motherboard.hpp>
 
 Storage& tso()
 {
@@ -18,6 +19,11 @@ Computer& tcp()
     std::cout << storage_aux;
     static Computer cp("Asus", "I7", 16, storage_aux, true, 500);
     return cp;
+}
+
+Motherboard* createMotherInstance()
+{
+    return (new Motherboard);
 }
 
 int main(void)
@@ -84,6 +90,24 @@ int main(void)
 
     std::cout << "Producer name: " << caser1.producer_name << std::endl;
     
+    Motherboard mother1;
 
+    std::cout << std::endl;
+    std::cout << "MotherBoard:" << std::endl;
+    std::cout << "Mother board name:" << mother1.get_producer_name();
+    std::cout << "Slots number:" << mother1.get_slots();
+    std::cout << std::endl;
+
+    std::cout << "----AutoPtr----" << std::endl;
+    std::auto_ptr<Motherboard> mother2(createMotherInstance());
+
+    std::cout<<std::endl;
+    std::cout << "Producer name mother2:" << mother2->get_producer_name() <<std::endl; 
+    std::cout << "Slots number mother2:" << mother2->get_slots() << std::endl; 
+    std::auto_ptr<Motherboard> mother3(mother2);
+    std::cout << "Producer name mother3:" << mother3->get_producer_name() << std::endl; 
+    std::cout << "Slots number mother3:" << mother3->get_slots() <<std::endl; 
+    std::cout << "Producer name mother2:" << mother2->get_producer_name() <<std::endl; 
+    std::cout << "Slots number mother2:" << mother2->get_slots() << std::endl;
     return 0;
 }

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Storage
+# Install script for directory: /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src/Storage
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/Library/Developer/CommandLineTools/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
 endif()
 

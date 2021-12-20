@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src
+CMAKE_SOURCE_DIR = /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out
+CMAKE_BINARY_DIR = /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out
 
 # Include any dependencies generated for this target.
 include Case/CMakeFiles/Case.dir/depend.make
@@ -70,32 +70,32 @@ include Case/CMakeFiles/Case.dir/progress.make
 include Case/CMakeFiles/Case.dir/flags.make
 
 Case/CMakeFiles/Case.dir/src/Case.cpp.o: Case/CMakeFiles/Case.dir/flags.make
-Case/CMakeFiles/Case.dir/src/Case.cpp.o: /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Case/src/Case.cpp
+Case/CMakeFiles/Case.dir/src/Case.cpp.o: /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src/Case/src/Case.cpp
 Case/CMakeFiles/Case.dir/src/Case.cpp.o: Case/CMakeFiles/Case.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Case/CMakeFiles/Case.dir/src/Case.cpp.o"
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Case && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Case/CMakeFiles/Case.dir/src/Case.cpp.o -MF CMakeFiles/Case.dir/src/Case.cpp.o.d -o CMakeFiles/Case.dir/src/Case.cpp.o -c /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Case/src/Case.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Case/CMakeFiles/Case.dir/src/Case.cpp.o"
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/Case && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Case/CMakeFiles/Case.dir/src/Case.cpp.o -MF CMakeFiles/Case.dir/src/Case.cpp.o.d -o CMakeFiles/Case.dir/src/Case.cpp.o -c /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src/Case/src/Case.cpp
 
 Case/CMakeFiles/Case.dir/src/Case.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Case.dir/src/Case.cpp.i"
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Case && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Case/src/Case.cpp > CMakeFiles/Case.dir/src/Case.cpp.i
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/Case && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src/Case/src/Case.cpp > CMakeFiles/Case.dir/src/Case.cpp.i
 
 Case/CMakeFiles/Case.dir/src/Case.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Case.dir/src/Case.cpp.s"
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Case && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Case/src/Case.cpp -o CMakeFiles/Case.dir/src/Case.cpp.s
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/Case && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src/Case/src/Case.cpp -o CMakeFiles/Case.dir/src/Case.cpp.s
 
 Case/CMakeFiles/Case.dir/src/casergb.cpp.o: Case/CMakeFiles/Case.dir/flags.make
-Case/CMakeFiles/Case.dir/src/casergb.cpp.o: /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Case/src/casergb.cpp
+Case/CMakeFiles/Case.dir/src/casergb.cpp.o: /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src/Case/src/casergb.cpp
 Case/CMakeFiles/Case.dir/src/casergb.cpp.o: Case/CMakeFiles/Case.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Case/CMakeFiles/Case.dir/src/casergb.cpp.o"
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Case && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Case/CMakeFiles/Case.dir/src/casergb.cpp.o -MF CMakeFiles/Case.dir/src/casergb.cpp.o.d -o CMakeFiles/Case.dir/src/casergb.cpp.o -c /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Case/src/casergb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Case/CMakeFiles/Case.dir/src/casergb.cpp.o"
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/Case && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Case/CMakeFiles/Case.dir/src/casergb.cpp.o -MF CMakeFiles/Case.dir/src/casergb.cpp.o.d -o CMakeFiles/Case.dir/src/casergb.cpp.o -c /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src/Case/src/casergb.cpp
 
 Case/CMakeFiles/Case.dir/src/casergb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Case.dir/src/casergb.cpp.i"
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Case && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Case/src/casergb.cpp > CMakeFiles/Case.dir/src/casergb.cpp.i
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/Case && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src/Case/src/casergb.cpp > CMakeFiles/Case.dir/src/casergb.cpp.i
 
 Case/CMakeFiles/Case.dir/src/casergb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Case.dir/src/casergb.cpp.s"
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Case && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Case/src/casergb.cpp -o CMakeFiles/Case.dir/src/casergb.cpp.s
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/Case && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src/Case/src/casergb.cpp -o CMakeFiles/Case.dir/src/casergb.cpp.s
 
 # Object files for target Case
 Case_OBJECTS = \
@@ -109,19 +109,19 @@ Case/libCase.a: Case/CMakeFiles/Case.dir/src/Case.cpp.o
 Case/libCase.a: Case/CMakeFiles/Case.dir/src/casergb.cpp.o
 Case/libCase.a: Case/CMakeFiles/Case.dir/build.make
 Case/libCase.a: Case/CMakeFiles/Case.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libCase.a"
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Case && $(CMAKE_COMMAND) -P CMakeFiles/Case.dir/cmake_clean_target.cmake
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Case && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Case.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libCase.a"
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/Case && $(CMAKE_COMMAND) -P CMakeFiles/Case.dir/cmake_clean_target.cmake
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/Case && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Case.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Case/CMakeFiles/Case.dir/build: Case/libCase.a
 .PHONY : Case/CMakeFiles/Case.dir/build
 
 Case/CMakeFiles/Case.dir/clean:
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Case && $(CMAKE_COMMAND) -P CMakeFiles/Case.dir/cmake_clean.cmake
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/Case && $(CMAKE_COMMAND) -P CMakeFiles/Case.dir/cmake_clean.cmake
 .PHONY : Case/CMakeFiles/Case.dir/clean
 
 Case/CMakeFiles/Case.dir/depend:
-	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Case /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Case /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/Case/CMakeFiles/Case.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src/Case /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/Case /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/Case/CMakeFiles/Case.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Case/CMakeFiles/Case.dir/depend
 

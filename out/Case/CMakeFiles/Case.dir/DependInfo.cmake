@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Case/src/Case.cpp" "Case/CMakeFiles/Case.dir/src/Case.cpp.o" "gcc" "Case/CMakeFiles/Case.dir/src/Case.cpp.o.d"
-  "/Users/horiaciulica/Documents/IEPLAB/Iep_proj/src/Case/src/casergb.cpp" "Case/CMakeFiles/Case.dir/src/casergb.cpp.o" "gcc" "Case/CMakeFiles/Case.dir/src/casergb.cpp.o.d"
+  "/Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src/Case/src/Case.cpp" "Case/CMakeFiles/Case.dir/src/Case.cpp.o" "gcc" "Case/CMakeFiles/Case.dir/src/Case.cpp.o.d"
+  "/Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src/Case/src/casergb.cpp" "Case/CMakeFiles/Case.dir/src/casergb.cpp.o" "gcc" "Case/CMakeFiles/Case.dir/src/casergb.cpp.o.d"
   )
 
 # Targets to which this target links.

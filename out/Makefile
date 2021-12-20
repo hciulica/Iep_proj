@@ -57,10 +57,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/horiaciulica/Documents/IEPLAB/Iep_proj/src
+CMAKE_SOURCE_DIR = /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out
+CMAKE_BINARY_DIR = /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/CMakeFiles /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/horiaciulica/Documents/IEPLAB/Iep_proj/out/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/horiaciulica/Documents/IEPLAB/Iep_proj/Iep_proj/out/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -181,6 +181,19 @@ Case/fast:
 	$(MAKE) $(MAKESILENT) -f Case/CMakeFiles/Case.dir/build.make Case/CMakeFiles/Case.dir/build
 .PHONY : Case/fast
 
+#=============================================================================
+# Target rules for targets named MotherBoard
+
+# Build rule for target.
+MotherBoard: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MotherBoard
+.PHONY : MotherBoard
+
+# fast build rule for target.
+MotherBoard/fast:
+	$(MAKE) $(MAKESILENT) -f MotherBoard/CMakeFiles/MotherBoard.dir/build.make MotherBoard/CMakeFiles/MotherBoard.dir/build
+.PHONY : MotherBoard/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -217,6 +230,7 @@ help:
 	@echo "... Computer"
 	@echo "... GraphicC"
 	@echo "... IEP_PROJ"
+	@echo "... MotherBoard"
 	@echo "... Storage"
 	@echo "... main.o"
 	@echo "... main.i"

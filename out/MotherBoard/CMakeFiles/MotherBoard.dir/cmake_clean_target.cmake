@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "libCaseRgb.a"
+  "libMotherBoard.a"
 )
