@@ -38,7 +38,24 @@ void unlock(Storage &s)
     s.setisLocked(false);
 }
 
+class LockStorage
+{
+    private:
+        Storage &lockPtr;
+        
+    public:
+    LockStorage(Storage &ptr):
+    lockPtr(ptr)
+    {
+        lock(lockPtr);
+    }
 
+    ~LockStorage()
+    {
+        unlock(lockPtr);
+    }
+};
+    
 
 int main(void)
 {
@@ -161,12 +178,26 @@ int main(void)
         std::shared_ptr<Motherboard> sharedMother2 = move(sharedMother); //Tot transfer de ownership, nu copiere!!
         std::cout << "SharedMother use count:" << sharedMother.use_count() << std::endl;
         std::cout << "SharedMother2 count = " << sharedMother2.use_count() << std::endl;
-         sharedMother2->set_producer_name("HyperX");
+        sharedMother2->set_producer_name("HyperX");
         std::cout << "Producer name sharedmother2:" << sharedMother2->get_producer_name() <<std::endl; 
         std::cout << "Producer name sharedmother1:" << sharedMother1->get_producer_name() <<std::endl; 
         
         std::cout << "\033[0m" << std::endl;
 
+    }
+    std::cout << "\n----------\033[1;34mResource Management Object\033[0m----------" << std::endl;
+    std::cout<<std::endl;
+    {
+        std::cout << "\033[1;34m";
+        Storage stor("Asus", "HDD");
+        LockStorage *lockedStorage = new LockStorage(stor);
+        std::cout << "\033[1;34m";
+        stor.askStorage();
+        std::cout << "\033[1;34m";
+        delete lockedStorage;
+        std::cout << "\033[1;34m";
+        stor.askStorage();
+        std::cout << "\033[0m" << std::endl;
     }
     return 0;
 }

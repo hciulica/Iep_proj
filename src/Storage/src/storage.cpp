@@ -1,10 +1,11 @@
 #include <iostream>
 #include <storage.hpp>
 
-    Storage::Storage(const std::string& the_producer, const std::string& the_type)
+    Storage::Storage(const std::string& the_producer, const std::string& the_type)// const bool the_isLocked)
         :
         the_producer_name       (the_producer),
         the_type_name           (the_type)
+       //isLocked            (the_isLocked)
     {}
     
     //Copy constructor
@@ -40,10 +41,12 @@
     {
         if(this->isLocked == true)
         {
+            std::cout << "\033[1;34m";
             std::cout << "Resursa e blocata" << std::endl;
         }
         else 
         {
+            std::cout << "\033[1;34m";
             std::cout << "Resursa poate fi folosita" << std::endl;
         }
     }
@@ -52,3 +55,5 @@
     {
         this->isLocked = isLocked;
     }
+
+   
