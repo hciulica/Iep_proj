@@ -19,9 +19,14 @@ public:
     //Copy assignment operator
     Motherboard operator=( const Motherboard& mother_obj );
     
+    //Getter for producer name
     std::string get_producer_name() const;
     
+    //Getter for slots
     int get_slots() const;
+
+    //Setter for producer_name
+    void set_producer_name(const std::string& new_producer_name);
 };
 
 #endif

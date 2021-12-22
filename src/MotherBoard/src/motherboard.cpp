@@ -37,3 +37,9 @@
     {
         return this->slots;
     }
+
+    void Motherboard::set_producer_name( const std::string& new_producer_name )
+    {
+        this->producer_name = new_producer_name;
+    }
+

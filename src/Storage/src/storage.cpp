@@ -34,3 +34,21 @@
     {
         return the_type_name;
     }
+
+
+    void Storage::askStorage()
+    {
+        if(this->isLocked == true)
+        {
+            std::cout << "Resursa e blocata" << std::endl;
+        }
+        else 
+        {
+            std::cout << "Resursa poate fi folosita" << std::endl;
+        }
+    }
+
+    void Storage::setisLocked(bool isLocked)
+    {
+        this->isLocked = isLocked;
+    }
